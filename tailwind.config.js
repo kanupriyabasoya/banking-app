@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
@@ -11,16 +12,15 @@ module.exports = {
         "color-gray": "#333",
         "color-white": "#fff",
         "color-blob": "#A427DF",
-      }
+      },
     },
     container: {
       center: true,
-      padding : {
-        DEFAULT : '20px',
-        md: '50px'
-      }
-    }
+      padding: {
+        DEFAULT: "20px",
+        md: "50px",
+      },
+    },
   },
   plugins: [],
-}
-
+};
